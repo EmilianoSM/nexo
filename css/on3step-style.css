@@ -2438,11 +2438,16 @@ textarea:focus:-ms-input-placeholder {
 	font-weight:400;
 }
 .subfooter a {
-  display: block;
-  margin: 20px 0 20px 0;
+  display: flex;
+  align-items: center;
+  margin: 21px 0 20px;
+  font-size: 12px;
 }
-.subfooter a:hover {
-  opacity: 0.8;
+.subfooter a span {
+  margin-right: 8px;
+}
+.subfooter a:hover span {
+  color: #FB2626;
 }
 .subfooter .date {
   float: left;
@@ -2600,7 +2605,7 @@ footer {
   font-size: 11px;
   font-weight: 400;
   letter-spacing:.6px;
-  padding: 30px 0 30px 0;
+  padding: 16px 0;
 }
 
 footer.white {
